@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Indica que a largura do site vai ser igual ao do dispositivo, e que o zoom inicial (scale) é = 1 -->
+        <title> NodeProp - Especializada em Soluções Digitais </title>
+        <meta name="description" content="Agência especializada em Marketing Digital, Criação de Sites e Aplicativos Mobile."> <!-- Descrição do site -->
+        <meta name="keyword" content="Agência digital, Marketing, Sites">
+        <meta name="robots" content="index, follow"> <!-- O que os motores de busca podem indexar (Follow são os links que se encontram na index) -->
+        <meta name="author" content="Icaro Cleto">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="https://use.fontawesome.com/56e6663d0a.js"></script> <!--Link para usar os icones do font awesome -->
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet"> <!--Link para usar a fonte lato -->
+        <link rel="icon" href="img/icon.png">
+    </head>
+    <body>
+        <header class="cabecalho">
+            <a href="index.html">
+                <h1 class="logo">NodeProp - Especializada em Soluções Digitais</h1>
+            </a>
+            <button class="btn-menu"><i class="fa fa-bars fa-lg"></i></button>
+            <nav class="menu">
+                <a class="btn-close">X</a>
+                <ul>
+                    <li><a href="" title="">Home</a></li>
+                    <li><a href="" title="">Clientes</a></li>
+                    <li><a href="" title="">Serviços</a></li>
+                    <li><a href="" title="">Blog</a></li>
+                    <li><a href="" title="">Quem Somos</a></li>
+                    <li><a href="" title="">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+            <script>
+                $(".btn-menu").click(function(){
+                    $(".menu").show();
+                });
+                $(".btn-close").click(function(){
+                    $(".menu").hide();
+                });
+            </script>
+        <!-- /header -->
+    </body>
+</html>
